@@ -28,6 +28,10 @@ gem 'bootstrap-sass' #, github: 'thomas-mcdonald/bootsrap-sass', branch: '3'
 
 gem 'devise', '~> 3.1.0.rc2'
 
+gem 'paperclip', '~> 3.0'
+
+#gem 'paperclip', github: 'thoughtbot/paperclip'
+
 group :development, :test do
   # Use sqlite3 as the database
   gem 'sqlite3'
